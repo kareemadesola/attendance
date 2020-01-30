@@ -57,8 +57,8 @@ $attendee = $crud->getAttendeeDetails($id);
     <input type="tel" class="form-control" value='<?php echo $attendee['contact']; ?>' id="phone" aria-describedby="phoneHelp" name="phone">
     <small id="phoneHelp" class="form-text text-muted">We'll never share your contacts with anyone else.</small>
   </div>
-  <button type="submit" name="submit" class="btn btn-success  btn-block">Save Changes</button>
   <a href="viewRecords.php" class='btn btn-default'>Back to List</a>
+  <button type="submit" name="submit" class="btn btn-success  ">Save Changes</button>
 </form>
 
 <?php } ?>
