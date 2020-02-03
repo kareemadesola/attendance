@@ -1,16 +1,17 @@
 <?php 
 // Development Connection
-    $db = 'attendance_db';
-    $user = 'root';
-    $pass = '';
-    $charset = 'utf8mb4'; 
+    // $host = '127.0.0.1';
+    // $db = 'attendance_db';
+    // $user = 'root';
+    // $pass = '';
+    // $charset = 'utf8mb4'; 
 
 // Remote Database Connection
-    // $host = 'remotemysql.com';
-    // $db = 'mxQEpmPp0U';
-    // $user = 'mxQEpmPp0U';
-    // $pass = 'F5hLEq4NvO';
-    // $charset = 'utf8mb4'; 
+    $host = 'remotemysql.com';
+    $db = 'mxQEpmPp0U';
+    $user = 'mxQEpmPp0U';
+    $pass = 'F5hLEq4NvO';
+    $charset = 'utf8mb4'; 
      
 // dsn data source name odcb instance
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
