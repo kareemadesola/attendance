@@ -3,7 +3,6 @@
 
     class SendEmail{
         public static function SendMail($to, $subject, $content){
-            $key = ' ';
 
             $email = new \SendGrid\Mail\Mail();
             $email->setFrom('kareemadesola1999@gmail.com', 'Kareem Adesola');
@@ -12,7 +11,7 @@
             $email->addContent("text/plain",$content);
             // $email->addContent("text/html", $content);
 
-            $sendgrid = new \SendGrid($key);
+            $sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
 
             try {
                 $response = $sendgrid->send($email);
