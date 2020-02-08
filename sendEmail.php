@@ -3,7 +3,7 @@
     // require  'vendor/autoload.php';
 
     // $dotenv= new vendor\ilimic\phpdotenv\src\Dotenv(__DIR__);
-    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+    $dotenv = Dotenv\Dotenv::createMutable(__DIR__);
 
     $dotenv->load();
 
