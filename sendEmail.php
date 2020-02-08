@@ -1,5 +1,13 @@
 <?php 
-    require_once 'vendor/autoload.php';
+    require  __DIR__.'/vendor\autoload.php';
+    // require  'vendor/autoload.php';
+
+    // $dotenv= new vendor\ilimic\phpdotenv\src\Dotenv(__DIR__);
+    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+
+    $dotenv->load();
+
+
 
     class SendEmail{
         public static function SendMail($to, $subject, $content){
