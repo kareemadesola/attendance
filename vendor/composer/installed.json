@@ -1,0 +1,292 @@
+[
+    {
+        "name": "phpoption/phpoption",
+        "version": "1.7.2",
+        "version_normalized": "1.7.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/schmittjoh/php-option.git",
+            "reference": "77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959",
+            "reference": "77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9 || ^7.0"
+        },
+        "require-dev": {
+            "bamarni/composer-bin-plugin": "^1.3",
+            "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
+        },
+        "time": "2019-12-15T19:35:24+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpOption\\": "src/PhpOption/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Johannes M. Schmitt",
+                "email": "schmittjoh@gmail.com"
+            },
+            {
+                "name": "Graham Campbell",
+                "email": "graham@alt-three.com"
+            }
+        ],
+        "description": "Option Type for PHP",
+        "keywords": [
+            "language",
+            "option",
+            "php",
+            "type"
+        ]
+    },
+    {
+        "name": "sendgrid/php-http-client",
+        "version": "3.10.2",
+        "version_normalized": "3.10.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sendgrid/php-http-client.git",
+            "reference": "a3891dfe1130014e46b59e3c76be0c1c9d4fd540"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sendgrid/php-http-client/zipball/a3891dfe1130014e46b59e3c76be0c1c9d4fd540",
+            "reference": "a3891dfe1130014e46b59e3c76be0c1c9d4fd540",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.4",
+            "squizlabs/php_codesniffer": "~2.0"
+        },
+        "time": "2020-01-22T20:51:56+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SendGrid\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matt Bernier",
+                "email": "dx@sendgrid.com"
+            },
+            {
+                "name": "Elmer Thomas",
+                "email": "ethomas@twilio.com"
+            }
+        ],
+        "description": "HTTP REST client, simplified for PHP",
+        "homepage": "http://github.com/sendgrid/php-http-client",
+        "keywords": [
+            "api",
+            "fluent",
+            "http",
+            "rest",
+            "sendgrid"
+        ]
+    },
+    {
+        "name": "sendgrid/sendgrid",
+        "version": "7.4.2",
+        "version_normalized": "7.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sendgrid/sendgrid-php.git",
+            "reference": "d697c9e1677516314c28d2b946cc3062ee9537ff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sendgrid/sendgrid-php/zipball/d697c9e1677516314c28d2b946cc3062ee9537ff",
+            "reference": "d697c9e1677516314c28d2b946cc3062ee9537ff",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "ext-openssl": "*",
+            "php": ">=5.6",
+            "sendgrid/php-http-client": "~3.10"
+        },
+        "replace": {
+            "sendgrid/sendgrid-php": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7.9 || ^6.4.3",
+            "squizlabs/php_codesniffer": "3.*",
+            "swaggest/json-diff": "^3.4"
+        },
+        "time": "2020-01-22T20:59:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SendGrid\\": "lib/",
+                "SendGrid\\Mail\\": "lib/mail/",
+                "SendGrid\\Contacts\\": "lib/contacts/",
+                "SendGrid\\Stats\\": "lib/stats/"
+            },
+            "files": [
+                "lib/SendGrid.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "This library allows you to quickly and easily send emails through Twilio SendGrid using PHP.",
+        "homepage": "http://github.com/sendgrid/sendgrid-php",
+        "keywords": [
+            "email",
+            "grid",
+            "send",
+            "sendgrid",
+            "twilio sendgrid"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-ctype",
+        "version": "v1.13.1",
+        "version_normalized": "1.13.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+            "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-ctype": "For best performance"
+        },
+        "time": "2019-11-27T13:56:44+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.13-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ]
+    },
+    {
+        "name": "vlucas/phpdotenv",
+        "version": "v4.1.0",
+        "version_normalized": "4.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vlucas/phpdotenv.git",
+            "reference": "0176075a1b7ee9cf86f70143ec79edf7072c975a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/0176075a1b7ee9cf86f70143ec79edf7072c975a",
+            "reference": "0176075a1b7ee9cf86f70143ec79edf7072c975a",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9 || ^7.0",
+            "phpoption/phpoption": "^1.7.1",
+            "symfony/polyfill-ctype": "^1.9"
+        },
+        "require-dev": {
+            "bamarni/composer-bin-plugin": "^1.3",
+            "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
+        },
+        "time": "2019-12-14T13:59:29+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dotenv\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Graham Campbell",
+                "email": "graham@alt-three.com",
+                "homepage": "https://gjcampbell.co.uk/"
+            },
+            {
+                "name": "Vance Lucas",
+                "email": "vance@vancelucas.com",
+                "homepage": "https://vancelucas.com/"
+            }
+        ],
+        "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+        "keywords": [
+            "dotenv",
+            "env",
+            "environment"
+        ]
+    }
+]
